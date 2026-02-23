@@ -1,15 +1,27 @@
-# Byte-compiled / Python
+# Python
 __pycache__/
 *.py[cod]
+*$py.class
 
-# Datasets & Weights
+# ML Assets (Don't push large files to GitHub)
 data/images/
 data/labels/
 *.pt
 *.onnx
-models/train/
+weights/
 
-# Environment & Logs
-.env
+# Results & Logs
+models/train/
 runs/
 logs/
+*.log
+
+# Environments
+.env
+.venv/
+env/
+venv/
+
+# Editor
+.vscode/
+.idea/
