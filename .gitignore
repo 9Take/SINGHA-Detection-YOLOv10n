@@ -1,0 +1,15 @@
+# Byte-compiled / Python
+__pycache__/
+*.py[cod]
+
+# Datasets & Weights
+data/images/
+data/labels/
+*.pt
+*.onnx
+models/train/
+
+# Environment & Logs
+.env
+runs/
+logs/
