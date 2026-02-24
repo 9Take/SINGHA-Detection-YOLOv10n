@@ -4,8 +4,7 @@ __pycache__/
 *$py.class
 
 # ML Assets (Don't push large files to GitHub)
-data/images/
-data/labels/
+data/
 *.pt
 *.onnx
 weights/

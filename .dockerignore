@@ -1,3 +1,11 @@
+# Editor & OS
+.vscode/
+.idea/
+.DS_Store
+
+# Notebooks
+*.ipynb
+
 # Git
 .git
 .gitignore
