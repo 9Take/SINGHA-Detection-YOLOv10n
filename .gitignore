@@ -11,7 +11,10 @@ weights/
 
 # Results & Logs
 models/train/
-runs/
+runs/**
+!runs/detect/
+!runs/detect/train2/
+!runs/detect/train2/**
 logs/
 *.log
 
