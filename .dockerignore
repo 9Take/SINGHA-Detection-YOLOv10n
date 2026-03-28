@@ -14,7 +14,10 @@
 data/
 models/
 weights/
-runs/
+runs/**
+!runs/detect/
+!runs/detect/train2/
+!runs/detect/train2/**
 
 # Python & System
 __pycache__/
